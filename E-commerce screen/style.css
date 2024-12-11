@@ -5,6 +5,8 @@ body {
     background-color: #EEEEEE;
 }
 
+/*Menu Structure*/
+
 nav {
     width: 100%;
     height: 50px;
@@ -29,4 +31,41 @@ nav ul li {
 
 .active {
     color: #FF7800;
+}
+
+/*Main Section Structure*/
+
+main { 
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #999999;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+
+#panel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#left { 
+    width: 80%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    background-color: white;
+}
+
+#right { 
+    width: 20%;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
